@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+    /* background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203)); */
+    /*  background: linear-gradient(102.3deg, rgb(147, 39, 143) 5.9%, rgb(234, 172, 232) 64%, rgb(246, 219, 245) 89%); */
+    color: white;
+    background: radial-gradient(circle at 98.9% 9.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-family: 'Parisienne', cursive;
+}
+body footer{
+    margin-top: 20px;
+    display: flex;
+    font-size: 15px;
+}
+footer p{
+text-align: center;
+width: 250px;
+}
+footer div{
+text-align: center;
+width: 500px;
+}
+footer div a{
+    display: block;
+    width: 120px;
+    margin: auto;
+    margin-top: -10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF7C00;
+    border-radius: 10px;
+    color: #fff;
+}
+.imgBox{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    transform: translate(50%,50%);
+    width: 150px;
+    height:190px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+section{
+    display: flex;
+    /* gap: 20px; */
+}
+.network {
+    padding-top: 0px;
+    border: white 1.5px solid;
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    overflow: hidden;
+    width:100%;
+    padding-bottom: 10px;
+}
+.services{
+    position: relative;
+    z-index: 100;
+    width:75%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+li{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.MTN p{
+    background-color: #F7C505;
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    padding-bottom: 5px;
+    border:#f7c505 solid 3px ;
+    border-top-right-radius: 0;
+    outline: #f7c505;
+}
+.AIRTEL p{
+    outline: #F70000;
+    border:#F70000 solid 3px ;
+    background-color: #F70000;
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    padding-bottom: 5px;
+}
+.GLO p{
+    background-color: #25A619;
+    outline: none;
+    border-top:#25A619 solid 3px ;
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    padding-bottom: 5px;
+}
+.nmobile p{
+    background-color: #BDCE05;
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    padding-bottom: 5px;
+}
